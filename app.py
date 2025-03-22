@@ -140,7 +140,7 @@ with col1:
     # Use a form to group the inputs and align them properly
     with st.form(key="input_form"):
         # Combo box for selecting an option
-        combo_options = ["MOS", "CRMMS"]
+        combo_options = ["APP1", "APP2"]
         combo_input = st.selectbox("Select App Id", combo_options)
 
         # Text box for user input
